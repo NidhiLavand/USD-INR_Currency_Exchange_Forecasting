@@ -51,21 +51,21 @@ c) The data was split into training and testing sets to evaluate model performan
 The following Python libraries are required to run the notebooks:
 
 Library	Purpose
-pandas	Data manipulation and time series indexing
-numpy	Numerical operations (e.g., log transformation)
-matplotlib & seaborn	Data visualization (plots, ACF, PACF)
-statsmodels	Time series analysis, stationarity tests (ADF, KPSS), and ARIMA modeling
-yfinance	Data collection from financial markets (exchange rate)
-datetime & timedelta	Handling date and time operations
-You can install these dependencies using pip:
+* pandas	Data manipulation and time series indexing
+* numpy	Numerical operations (e.g., log transformation)
+* matplotlib & seaborn	Data visualization (plots, ACF, PACF)
+* statsmodels	Time series analysis, stationarity tests (ADF, KPSS), and ARIMA modeling
+* yfinance	Data collection from financial markets (exchange rate)
+* datetime & timedelta	Handling date and time operations
 
 
-# Execute Notebooks: 
+
+# Execute Notebooks:
 Run the Jupyter Notebooks in the following order:
 
 1) Data_Collection.ipynb (To fetch the usd_inr_daily_raw.csv file)
-2) EDA.ipynb
-3)Time_Series_Analysis.ipynb
+2)  EDA.ipynb
+3) Time_Series_Analysis.ipynb
 
 Note: (Data File) The pipeline relies on a data file named usd_inr_daily_raw.csv which is generated during the Data Collection phase.
 
